@@ -1,7 +1,7 @@
 import React from 'react'
 function Card() {
   return (
-    <div className='w-screen h-full  bg-white m-auto flex mobile:w-screen'>
+    <div className='w-screen h-full  m-auto flex mobile:w-screen text-white'>
       <div className='w-[40%] h-full bg-secondary'>
 
       </div>

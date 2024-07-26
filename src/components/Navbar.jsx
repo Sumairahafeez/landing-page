@@ -8,9 +8,9 @@ function Navbar() {
     <header className="text-gray-600 body-font backdrop-opacity-40">
   <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
     <a className="flex title-font font-medium items-center text-black mb-4 md:mb-0">
-      <span className="ml-3 text-2xl font-Laila">Sumaira Hafeez| Frontend Developer</span>
+      <span className="ml-3 text-2xl font-Laila text-white">Sumaira Hafeez| Frontend Developer</span>
     </a>
-    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-5 text-black font-Laila">
+    <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center gap-5 text-white font-Laila">
       <a className="mr-5 hover:cursor-pointer hover:bg-secondary justify-center hover:text-xl">About</a>
       <a className="mr-5 hover:cursor-pointer hover:bg-secondary justify-center hover:text-xl">Resume</a>
       <a className="mr-5 hover:cursor-pointer hover:bg-secondary justify-center hover:text-xl">Project</a>
