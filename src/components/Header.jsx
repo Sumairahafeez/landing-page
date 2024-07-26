@@ -5,7 +5,7 @@ import Card from "./Card"
 
 function Header({Mode}) {
     const [mode,setmode] = useState("true")
-    if(Mode == "Dark")
+    // if(Mode == "Dark")
     {
       return (
         <div className = "w-screen h-screen bg-Dark">

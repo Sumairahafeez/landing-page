@@ -1,24 +1,31 @@
-import React from 'react'
-
+import React, { useEffect } from 'react'
+import '../index.css'
+import { useNavigate } from 'react-router-dom'
 function Projects() {
+    const navigate = useNavigate();
+
+//  GetMessManagement = () =>{
+//     // window.Location.href = "https://github.com/Sumairahafeez/Mess_management_system"
+//     navigate('https://github.com/Sumairahafeez/Mess_management_system')
+//   }  
   return (
     <section className="text-white body-font bg-Dark ">
   <div className="container px-5 py-24 mx-auto font-Laila">
-    <div className="flex justify-center items-center w-full mb-20 mt-32 gap-5">
+    <div className="flex justify-center items-center w-full mb-20  gap-5">
         <img width="50" height="50" src="https://img.icons8.com/ios-filled/50/FD7E14/group-of-projects.png" alt="group-of-projects"/>
       <h1 className="sm:text-3xl text-3xl font-medium title-font text-white">
         PPROJECT WORK
       </h1>
     </div>
-    <div className="flex flex-wrap -m-4">
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
+    <div className="flex flex-wrap -m-4 gap-2">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
         <div className="flex relative">
           <img
             alt="gallery"
-            className="absolute inset-0 w-full h-full object-contain border border-orange-400"
+            className="absolute inset-0 w-full h-full object-contain"
             src="https://raw.githubusercontent.com/RatulGhosh/Mess_Wala/master/app/src/main/res/drawable-hdpi/logo.png"
           />
-          <div className="px-8 py-10 relative z-10 w-full border-4 border-orange-400 bg-tertiary opacity-0 hover:opacity-100">
+          <div className="px-8 py-10 relative z-10 w-full bg-tertiary opacity-0 hover:opacity-100">
             <h2 className="tracking-widest text-sm title-font font-medium text-Primary mb-1">
               MESS MANAGEMENT SYSTEM 
             </h2>
@@ -28,11 +35,16 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
               Use of Arrays,Conditions and Functions for developing a system that help hostel students to digitalize their Mess System 
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
+
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative border border-orange-400">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
+        <div className="flex relative">
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -48,11 +60,15 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
            Use of MSSQL to perform CRUD Operations using winform and c# and learned the basis of Database
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative border border-orange-400">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
+        <div className="flex relative">
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -68,11 +84,15 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
             Use of all the four pillars of Object Oriented Programming in c# with file handling and Database
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative border border-orange-400">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
+        <div className="flex relative">
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -88,11 +108,15 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
             used react components to build a space website that covers all exploration going on in space
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative border border-orange-400">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
+        <div className="flex relative">
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -108,11 +132,15 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
                 Use of all CSS properties to make a clone of netflix using HTML Tags and CSS. Discord clone is made using html css and javascript
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
           </div>
         </div>
       </div>
-      <div className="lg:w-1/3 sm:w-1/2 p-4">
-        <div className="flex relative border border-orange-400">
+      <div className="lg:w-[30%]  sm:w-1/2 p-4 animate">
+        <div className="flex relative">
           <img
             alt="gallery"
             className="absolute inset-0 w-full h-full object-cover object-center"
@@ -128,6 +156,10 @@ function Projects() {
             <p className="leading-relaxed text-gray-700">
             Use of React Libraries and Hooks to Make an online voting system for all puposes.
             </p>
+            <button class="group group-hover:before:duration-500 group-hover:after:duration-500 after:duration-500 hover:border-rose-300 hover:before:[box-shadow:_20px_20px_20px_30px_#a21caf] duration-500 before:duration-500 hover:duration-500 underline underline-offset-2 hover:after:-right-8 hover:before:right-12 hover:before:-bottom-8 hover:before:blur hover:underline hover:underline-offset-4  origin-left hover:decoration-2 hover:text-rose-300 relative bg-neutral-800 h-12 w-52 border text-center p-3 text-gray-50 text-base font-bold rounded-lg  overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-1 before:top-1 before:z-10 before:bg-primary before:rounded-full before:blur-lg  after:absolute after:z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-8 after:top-3 after:rounded-full after:blur-lg mt-5" onClick={()=>{window.location.href = ('https://github.com/Sumairahafeez/Mess_management_system')}}>
+    view
+</button>
+
           </div>
         </div>
       </div>

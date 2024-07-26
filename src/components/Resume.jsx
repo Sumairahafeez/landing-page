@@ -4,11 +4,11 @@ function Resume() {
   return (
     <div className='w-screen h-screen flex  justify-center items-center bg-Dark'>
        
-      <section class="text-white body-font flex justify-center items-center w-screen h-screen font-Laila mt-64 bg-Dark">
+      <section class="text-white body-font flex justify-center items-center w-screen h-screen font-Laila bg-Dark">
        
      
-  <div class="container px-5 py-24 mx-auto">
-  <div className='flex justify-center items-center gap-5 text-4xl font-bold'> <img width="56" height="56" src="https://img.icons8.com/emoji/96/brown-circle-emoji.png" alt="brown-circle-emoji"/><h1>LANGUAGES</h1></div>
+  <div class="container px-5 py-24 mx-auto flex flex-col gap-20">
+  <div className='flex justify-center items-center gap-5 text-4xl font-bold'> <img width="56" height="56" src="https://img.icons8.com/emoji/96/brown-circle-emoji.png" alt="brown-circle-emoji"/><h1>SKILLS & LANGUAGES</h1></div>
   <div className='flex justify-center items-center gap-10'>
   <div
   class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-secondary"
@@ -75,54 +75,49 @@ function Resume() {
   <div
     class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
   >
-    Nice to meet u,<br />Uiverse
-  </div>
-  <div class="w-full h-full items-center justify-center flex uppercase">
-    hover me
-  </div>
-</div>
-<div
-  class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-secondary"
+   <div
+  class="flex space-x-1 border-[3px] border-Primary rounded-xl select-none w-[90%] text-sm"
 >
-  <div class="z-10 absolute w-full h-full peer"></div>
-  <div
-    class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-tertiary transition-all duration-500"
-  ></div>
-  <div
-    class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
   >
-    Nice to meet u,<br />Uiverse
-  </div>
-  <div class="w-full h-full items-center justify-center flex uppercase">
-    hover me
-  </div>
-</div>
-<div
-  class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-secondary"
->
-  <div class="z-10 absolute w-full h-full peer"></div>
-  <div
-    class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-tertiary transition-all duration-500"
-  ></div>
-  <div
-    class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
+    <input
+      type="radio"
+      name="radio"
+      value="html"
+      class="peer hidden"
+      checked=""
+    />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700  rounded-lg transition duration-150 ease-in-out"
+      >Good</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
   >
-   <div class="rating">
-  <input value="5" name="rating" id="star5" type="radio"/>
-  <label for="star5"></label>
-  <input value="4" name="rating" id="star4" type="radio"/>
-  <label for="star4"></label>
-  <input value="3" name="rating" id="star3" type="radio"/>
-  <label for="star3"></label>
-  <input value="2" name="rating" id="star2" type="radio"/>
-  <label for="star2"></label>
-  <input value="1" name="rating" id="star1" type="radio"/>
-  <label for="star1"></label>
+    <input type="radio" name="radio" value="react" class="peer hidden" />
+    <span
+      class="tracking-widest bg-secondary peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Better</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="vue" class="peer hidden" />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Best</span
+    >
+  </label>
 </div>
 
   </div>
   <div class="w-full h-full items-center justify-center flex uppercase">
-    hover me
+  <img width="100" height="100" src="https://img.icons8.com/ios-filled/50/FD7E14/c-sharp-logo.png" alt="c-sharp-logo"/>
   </div>
 </div>
 <div
@@ -135,10 +130,160 @@ function Resume() {
   <div
     class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
   >
-    Nice to meet u,<br />Uiverse
+   <div
+  class="flex space-x-1 border-[3px] border-Primary rounded-xl select-none w-[90%] text-sm"
+>
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input
+      type="radio"
+      name="radio"
+      value="html"
+      class="peer hidden"
+      checked=""
+    />
+    <span
+      class="tracking-widest bg-secondary  peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700  rounded-lg transition duration-150 ease-in-out"
+      >Good</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="react" class="peer hidden" />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Better</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="vue" class="peer hidden" />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Best</span
+    >
+  </label>
+</div>
+
   </div>
   <div class="w-full h-full items-center justify-center flex uppercase">
-    hover me
+  <img width="100" height="100" src="https://img.icons8.com/ios-filled/50/FD7E14/python.png" alt="python"/>
+  </div>
+</div>
+<div
+  class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-secondary"
+>
+  <div class="z-10 absolute w-full h-full peer"></div>
+  <div
+    class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-tertiary transition-all duration-500"
+  ></div>
+  <div
+    class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
+  >
+   <div
+  class="flex space-x-1 border-[3px] border-Primary rounded-xl select-none w-[90%] text-sm"
+>
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input
+      type="radio"
+      name="radio"
+      value="html"
+      class="peer hidden"
+      checked=""
+    />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700  rounded-lg transition duration-150 ease-in-out"
+      >Good</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="react" class="peer hidden" />
+    <span
+      class="tracking-widest bg-secondary peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Better</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="vue" class="peer hidden" />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Best</span
+    >
+  </label>
+</div>
+
+
+  </div>
+  <div class="w-full h-full items-center justify-center flex uppercase">
+  <img width="100" height="100" src="https://img.icons8.com/ios-filled/50/FD7E14/javascript-logo.png" alt="javascript-logo"/>
+  </div>
+</div>
+<div
+  class="relative overflow-hidden w-60 h-80 rounded-3xl cursor-pointer text-2xl font-bold bg-secondary"
+>
+  <div class="z-10 absolute w-full h-full peer"></div>
+  <div
+    class="absolute peer-hover:-top-20 peer-hover:-left-16 peer-hover:w-[140%] peer-hover:h-[140%] -top-32 -left-16 w-32 h-44 rounded-full bg-tertiary transition-all duration-500"
+  ></div>
+  <div
+    class="absolute flex text-xl text-center items-end justify-end peer-hover:right-0 peer-hover:rounded-b-none peer-hover:bottom-0 peer-hover:items-center peer-hover:justify-center peer-hover:w-full peer-hover:h-full -bottom-32 -right-16 w-36 h-44 rounded-full bg-tertiary transition-all duration-500"
+  >
+   <div
+  class="flex space-x-1 border-[3px] border-Primary rounded-xl select-none w-[90%] text-sm"
+>
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input
+      type="radio"
+      name="radio"
+      value="html"
+      class="peer hidden"
+      checked=""
+    />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700  rounded-lg transition duration-150 ease-in-out"
+      >Good</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="react" class="peer hidden" />
+    <span
+      class="tracking-widest bg-secondary peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Better</span
+    >
+  </label>
+
+  <label
+    class="radio flex flex-grow items-center justify-center rounded-lg p-1 cursor-pointer"
+  >
+    <input type="radio" name="radio" value="vue" class="peer hidden" />
+    <span
+      class="tracking-widest peer-checked:bg-gradient-to-r peer-checked:from-[blueviolet] peer-checked:to-[violet] peer-checked:text-white text-gray-700 p-2 rounded-lg transition duration-150 ease-in-out"
+      >Best</span
+    >
+  </label>
+</div>
+
+  </div>
+  <div class="w-full h-full items-center justify-center flex uppercase">
+  <img width="100" height="100" src="https://img.icons8.com/ios/100/FD7E14/mysql-logo.png" alt="mysql-logo"/>
   </div>
 </div>
   </div>
